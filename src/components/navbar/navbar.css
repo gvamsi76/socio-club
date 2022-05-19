@@ -1,0 +1,199 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+  border-bottom: 1px solid rgba(165, 165, 165, 0.1);
+}
+.navbar1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+.navbar-links{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-links_logo{
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 20px;
+  background-color: #fff;
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+}
+/* 
+img:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+} */
+.navbar-links_logo h1{
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 17px;
+}
+.navbar-links_logo img{
+  margin-right: 5px;
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
+.navbar-links_container{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+}
+.navbar-links_container input {
+  background: #1B1A21;
+  border-radius: 10px;
+  border: none;
+  padding: 7px 19px 7px 15px;
+  font-family: var(--font-family);
+  outline: none;
+  color: whitesmoke;
+}
+
+.navbar-sign{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar-links_container p,
+.navbar-sign p,
+.navbar-menu_container p{
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.navbar-sign .primary-btn,
+.navbar-menu_container-links-sign .primary-btn
+{
+  background: initial;
+  border-radius: 10px;
+  color: #Fff;
+}
+.navbar-sign .secondary-btn,
+.navbar-menu_container-links-sign .secondary-btn
+{
+  background: transparent;
+  border: none;
+  margin: 0 1rem;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.navbar-sign button,
+.navbar-menu_container button{
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  border: none;
+  font-size: 16px;
+}
+.navbar-menu{
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+.navbar-menu svg{
+  cursor: pointer;
+}
+.navbar-menu_container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  width: 100%;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0,0,0,0.2);
+  z-index: 99;
+}
+.navbar-menu_container p {
+  margin: 1rem 0;
+}
+.navbar-menu_container-links-sign{
+  display: none;
+}
+@media screen and (max-width:1050px) {
+  .navbar-links_container{
+    display: none;
+  }
+  .navbar-menu{
+    display: flex;
+  }
+ 
+}
+
+@media screen and (max-width:700px) {
+ .navbar{
+   padding: 2rem 4rem;
+ }
+}
+@media screen and (max-width:550px) {
+  .navbar{
+    padding: 2rem;
+  }
+
+  .navbar-sign{
+    display: none;
+  }
+  .navbar-menu_container{
+    top: 20px;
+  }
+  .navbar-menu_container-links-sign{
+    display: block;
+  }
+
+  .navbar-menu_container-links-sign .secondary-btn{
+    margin: 1rem 0;
+  }
+
+ }
+
+ .opensans{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+ }
+
+ .pointer{
+   cursor: pointer;
+ }
+ .dark{
+   background-color: black;
+ }
