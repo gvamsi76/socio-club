@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import './bids.css'
-import Game from '../../assets/Game.gif'
 import readingbook from '../../assets/readingbook.gif'
 import audiobook from '../../assets/audiobook.gif'
 import News from '../../assets/News.gif'
@@ -18,6 +17,10 @@ import quizbump from '../../assets/quizbump.gif'
 import newyoga from '../../assets/newyoga.gif'
 import marketing from '../../assets/marketing.gif'
 import exchangecryptocurrency from '../../assets/exchangecryptocurrency.gif'
+import gamepadanimation from '../../assets/gamepadanimation.gif'
+import books from '../../assets/books.gif'
+import globalnetwork from '../../assets/globalnetwork.gif'
+
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
@@ -41,7 +44,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-right" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={Game} className="image-responsive" alt="Games" />
+                <img src={gamepadanimation} className="image-responsive" alt="Games" title='Play Games' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Games</p>
               <div className='text-dark text-center texth'>Games club - <br/> Free games to play online! </div>
@@ -56,7 +59,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-up" className="bids-card bg-white">
               <div className="bids-card-top " >
-                <img src={readingbook} className="image-responsive" alt="Books" />
+                <img src={books} className="image-responsive" alt="Books" title='Books' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Books</p>
               <div className='text-dark text-center texth'>Books club - <br/> Free ebooks to read and download. Get Some stuff and Read the Books</div>
@@ -68,7 +71,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-left" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={audiobook} className="image-responsive" alt="Audio Books" />
+                <img src={audiobook} className="image-responsive" alt="Audio Books" title='Audio Books' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Audio Books</p>
               <div className='text-dark text-center texth'>Audio Books club - <br/> Audio books online. Very lazy to read the books,listen the books</div>
@@ -80,7 +83,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-down" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={News} className="image-responsive" alt="News" />
+                <img src={globalnetwork} className="image-responsive" alt="News" title='News' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">News</p>
               <div className='text-dark text-center texth'>News club - <br/> Daily Updated Real News</div>
@@ -92,7 +95,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-right" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={Contest} className="image-responsive" alt="Contests" />
+                <img src={Contest} className="image-responsive" alt="Contests" title='Contests' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Contests</p>
               <div className='text-dark text-center texth'>Contests club - <br/> On Everything Participate and Win Rewards</div>
@@ -104,7 +107,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-up" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={Crypto} className="image-responsive" alt="NFT's" />
+                <img src={Crypto} className="image-responsive" alt="NFT's" title="NFT's" />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">NFT'S</p>
               <div className='text-dark text-center texth'>Nft's club - <br/> Check Trending Nft's and Crypto Things</div>
@@ -116,7 +119,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-left" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={Music} alt="Music" />
+                <img src={Music} alt="Music" title='Music' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Music</p>
               <div className='text-dark text-center texth'>Music club - <br/> Listen to free Music.</div>
@@ -128,7 +131,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-down" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={Radio} alt="Radio" />
+                <img src={Radio} alt="Radio" title='Radio' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Radio</p>
               <div className='text-dark text-center texth'>Radio club - <br/> Listen to all Radio live stations free!</div>
@@ -140,7 +143,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-right" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={chatbot} alt="Chatbot" />
+                <img src={chatbot} alt="Chatbot" title='Chatbot' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Chatbot</p>
               <div className='text-dark text-center texth'>Chatbot club - <br/> Lucy Chat bot, which will entertain with voice and talks in chat</div>
@@ -152,7 +155,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-up" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={Memes} alt="Memes" />
+                <img src={Memes} alt="Memes" title='Memes' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Memes</p>
               <div className='text-dark text-center texth'>Memes club - <br/> Explore all time best memes live.</div>
@@ -164,7 +167,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-left" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={Podcast} alt="Podcasts" />
+                <img src={Podcast} alt="Podcasts" title="Podcasts" />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Podcasts</p>
               <div className='text-dark text-center texth'>Podcasts club - <br/> Listen to Podcasts All over the World</div>
@@ -176,7 +179,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-down" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={Anonymous} alt="Anonymous" />
+                <img src={Anonymous} alt="Anonymous" title='Anonymous' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Anonymous</p>
               <div className='text-dark text-center texth'>Anonymous club - <br/> Anyone can Securely post anything, as truth as hard, as Anonymous person.</div>
@@ -190,7 +193,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-right" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={videogamestreamer} alt="Gaming Videos" />
+                <img src={videogamestreamer} alt="Gaming Videos" title='Gaming Videos' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Gaming Videos</p>
               <div className='text-dark text-center texth'>Gaming Videos club - <br/> Watch all the Free Gaming Videos. </div>
@@ -203,7 +206,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-up" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={workout} alt="Fitness" />
+                <img src={workout} alt="Fitness" title='Fitness' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Fitness</p>
               <div className='text-dark text-center texth'>Fitness club - <br/>Watch free live Exercises and do Workouts and Be Fit.</div>
@@ -214,7 +217,7 @@ const Bids = ({title}) => {
               <div className="card-column" >
             <div data-aos="fade-left" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={quizbump} alt="Quiz" />
+                <img src={quizbump} alt="Quiz" title='Quiz' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Quiz</p>
               <div className='text-dark text-center texth'>Quiz club - <br/> Play and Participate in All Free Quizs</div>
@@ -226,7 +229,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-down" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={newyoga} alt="Breathing" />
+                <img src={newyoga} alt="Breathing" title='Breathing' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Breathing</p>
               <div className='text-dark text-center texth'>Breathing club - <br/> Practice Breathing and Be Healthy </div>
@@ -237,7 +240,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-right" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={marketing} alt="Breathing" />
+                <img src={marketing} alt="Marketing" title='Marketing' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Shop</p>
               <div className='text-dark text-center texth'>Shopping club - <br/> Shop online everything. </div>
@@ -248,7 +251,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-up" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={exchangecryptocurrency} alt="Breathing" />
+                <img src={exchangecryptocurrency} alt="Exchange Cryptocurrency" title='Exchange Cryptocurrency' />
               {/* <Link to={`/post/123`}> */}
               <p className="bids-title text-dark">Crypto</p>
               <div className='text-dark text-center texth'>Crypto club - <br/> Check all live crypto prices. </div>

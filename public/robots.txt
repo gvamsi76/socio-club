@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
-sitemap: http://www.socio-club.com/sitemap.xml
+sitemap: https://www.socio-club.com/sitemap.xml

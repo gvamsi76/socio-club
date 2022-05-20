@@ -24,13 +24,13 @@ const Header = () => {
       <div className="header-content ">
         
         <div className='leftsidebanner'>
-          <h1 data-aos="flip-right">Social And Entertainment Super Platform</h1>
-          <h2 data-aos="flip-right">Socio-Club</h2>
+          <h1 data-aos="zoom-in-up">Social And Entertainment Super Platform</h1>
+          <h2 data-aos="zoom-in-up">Socio-Club</h2>
           <p data-aos="flip-right">Sink Yourself Into Vibes</p>
         </div>
         
         <div data-aos="zoom-out" className='banner'>
-          <img src={banner_image}  alt="heloo" />
+          <img src={banner_image}  alt="Banner Image" title='Banner Image' />
           </div>
 
 
@@ -43,7 +43,7 @@ const Header = () => {
 
         <Grid item md={4} xs={12}>
         <div data-aos="slide-right" className='trophy'>
-          <img src={prizepodium}  alt="heloo" className='rounded' />
+          <img src={prizepodium}  alt="Prize podium" title="Prize podium" className='rounded' />
         </div>
           </Grid>
           <Grid item md={5} xs={12} className='contests-p'>
@@ -55,7 +55,7 @@ const Header = () => {
       </div>
       <div data-aos="zoom-in-up" className='googleplay'>
         <p>Get in on Google Playstore</p>
-        <img src={image2} href="#"className='gpay-anime' alt='Playstore' />
+        <img src={image2} href="#"className='gpay-anime' alt='Playstore' title='Playstore' />
         </div>
     </div>
     
