@@ -42,12 +42,6 @@ const Footer = () => {
       </p>
       </div>
       <div className="footer-copyright">
-        {/* <div>
-          <p>
-            {" "}
-            © {new Date().getFullYear()} SocioClub, Inc. All Rights Reserved
-          </p>
-        </div> */}
         <div className="flex-icon">
 
           <div className="card-icon">
@@ -60,7 +54,7 @@ const Footer = () => {
                 color="white"
                 className="footer-icon"
               />
-              <p>LinkedIn</p>
+              <h6 className="text-white my-auto">LinkedIn</h6>
             </a>
           </div>
           
@@ -72,7 +66,7 @@ const Footer = () => {
               color="white"
               className="footer-icon"
             />
-            <p>Instagram</p>
+            <h6 className="text-white my-auto">Instagram</h6>
           </a>
           
           </div>
@@ -84,7 +78,7 @@ const Footer = () => {
               className="footer-icon"
             />
           </a>
-          <p>Facebook</p>
+          <h6 className="text-white my-auto">Facebook</h6>
             </div>
           {/* <AiFillFacebook size={25} color="white" className="footer-icon" /> */}
         </div>

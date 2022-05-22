@@ -46,14 +46,10 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={gamepadanimation} className="image-responsive" alt="Games" title='Play Games' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Games</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Games</h5>
               <div className='text-dark text-center texth'>Games club - <br/> Free games to play online! </div>
               {/* </Link> */}
               </div>
-              {/* <div className="bids-card-bottom">
-                <p>1.25 <span>ETH</span></p>
-                <p> <AiFillHeart /> 92</p>
-              </div> */}
             </div>
           </div>
           <div className="card-column" >
@@ -61,7 +57,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top " >
                 <img src={books} className="image-responsive" alt="Books" title='Books' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Books</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Books</h5>
               <div className='text-dark text-center texth'>Books club - <br/> Free ebooks to read and download. Get Some stuff and Read the Books</div>
               {/* </Link> */}
               </div>
@@ -73,7 +69,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={audiobook} className="image-responsive" alt="Audio Books" title='Audio Books' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Audio Books</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Audio Books</h5>
               <div className='text-dark text-center texth'>Audio Books club - <br/> Audio books online. Very lazy to read the books,listen the books</div>
               {/* </Link> */}
               </div>
@@ -85,7 +81,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={globalnetwork} className="image-responsive" alt="News" title='News' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">News</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">News</h5>
               <div className='text-dark text-center texth'>News club - <br/> Daily Updated Real News</div>
               {/* </Link> */}
               </div>
@@ -97,7 +93,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={Contest} className="image-responsive" alt="Contests" title='Contests' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Contests</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Contests</h5>
               <div className='text-dark text-center texth'>Contests club - <br/> On Everything Participate and Win Rewards</div>
               {/* </Link> */}
               </div>
@@ -109,7 +105,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={Crypto} className="image-responsive" alt="NFT's" title="NFT's" />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">NFT'S</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">NFT'S</h5>
               <div className='text-dark text-center texth'>Nft's club - <br/> Check Trending Nft's and Crypto Things</div>
               {/* </Link> */}
               </div>
@@ -121,7 +117,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={Music} alt="Music" title='Music' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Music</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Music</h5>
               <div className='text-dark text-center texth'>Music club - <br/> Listen to free Music.</div>
               {/* </Link> */}
               </div>
@@ -133,7 +129,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={Radio} alt="Radio" title='Radio' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Radio</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Radio</h5>
               <div className='text-dark text-center texth'>Radio club - <br/> Listen to all Radio live stations free!</div>
               {/* </Link> */}
               </div>
@@ -145,7 +141,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={chatbot} alt="Chatbot" title='Chatbot' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Chatbot</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Chatbot</h5>
               <div className='text-dark text-center texth'>Chatbot club - <br/> Lucy Chat bot, which will entertain with voice and talks in chat</div>
               {/* </Link> */}
               </div>
@@ -157,7 +153,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={Memes} alt="Memes" title='Memes' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Memes</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Memes</h5>
               <div className='text-dark text-center texth'>Memes club - <br/> Explore all time best memes live.</div>
               {/* </Link> */}
               </div>
@@ -169,7 +165,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={Podcast} alt="Podcasts" title="Podcasts" />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Podcasts</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Podcasts</h5>
               <div className='text-dark text-center texth'>Podcasts club - <br/> Listen to Podcasts All over the World</div>
               {/* </Link> */}
               </div>
@@ -181,7 +177,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={Anonymous} alt="Anonymous" title='Anonymous' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Anonymous</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Anonymous</h5>
               <div className='text-dark text-center texth'>Anonymous club - <br/> Anyone can Securely post anything, as truth as hard, as Anonymous person.</div>
               {/* </Link> */}
               </div>
@@ -195,7 +191,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={videogamestreamer} alt="Gaming Videos" title='Gaming Videos' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Gaming Videos</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Gaming Videos</h5>
               <div className='text-dark text-center texth'>Gaming Videos club - <br/> Watch all the Free Gaming Videos. </div>
               {/* </Link> */}
               </div>
@@ -208,7 +204,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={workout} alt="Fitness" title='Fitness' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Fitness</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Fitness</h5>
               <div className='text-dark text-center texth'>Fitness club - <br/>Watch free live Exercises and do Workouts and Be Fit.</div>
               {/* </Link> */}
               </div>
@@ -219,7 +215,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={quizbump} alt="Quiz" title='Quiz' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Quiz</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Quiz</h5>
               <div className='text-dark text-center texth'>Quiz club - <br/> Play and Participate in All Free Quizs</div>
               {/* </Link> */}
               </div>
@@ -231,7 +227,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={newyoga} alt="Breathing" title='Breathing' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Breathing</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Breathing</h5>
               <div className='text-dark text-center texth'>Breathing club - <br/> Practice Breathing and Be Healthy </div>
               {/* </Link> */}
               </div>
@@ -242,7 +238,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={marketing} alt="Marketing" title='Marketing' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Shop</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Shop</h5>
               <div className='text-dark text-center texth'>Shopping club - <br/> Shop online everything. </div>
               {/* </Link> */}
               </div>
@@ -253,7 +249,7 @@ const Bids = ({title}) => {
               <div className="bids-card-top">
                 <img src={exchangecryptocurrency} alt="Exchange Cryptocurrency" title='Exchange Cryptocurrency' />
               {/* <Link to={`/post/123`}> */}
-              <p className="bids-title text-dark">Crypto</p>
+              <h5 className="bids-title text-dark text-center fw-bolder mt-2">Crypto</h5>
               <div className='text-dark text-center texth'>Crypto club - <br/> Check all live crypto prices. </div>
               {/* </Link> */}
               </div>
