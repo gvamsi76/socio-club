@@ -36,7 +36,8 @@ const Bids = ({title}) => {
     <div className='bids section__padding' id="Features" >
       <div className="bids-container">
         <div data-aos="zoom-in" className="bids-container-text">
-          <h1>Club Features</h1>
+          {/*<h1>Club Features</h1>*/}
+          <p className='fw-bolder display-4 text-center'>Club Features</p>
         </div>
         <div className="bids-container-card">
 
