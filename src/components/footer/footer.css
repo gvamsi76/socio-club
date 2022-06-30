@@ -127,6 +127,13 @@
   border-top: 1px solid rgba(165, 165, 165, 0.1);
   padding-top: 2rem;
 }
+.footer-copyright1{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
 .footer-copyright p{
   font-family: var(--font-family);
   font-weight: 600;
@@ -135,7 +142,7 @@ line-height: 24px;
   color: #FFFFFF;
 }
 .footer-icon{
- margin-inline: 10px;
+ margin-inline: 0px;
 }
 @media screen and (max-width: 850px) {
   .footer-heading h1 {
@@ -179,7 +186,7 @@ line-height: 24px;
   object-fit: contain;
 }
 .card-icon{
-  width: 150px ;
+  width: 110px ;
   font-family: var(--font-family);
   font-weight: 600;
 font-size: 16px;

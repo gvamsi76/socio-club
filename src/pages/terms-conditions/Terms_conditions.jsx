@@ -5,7 +5,7 @@ const TermsConditions = () => {
 
   return (
     <div className="container mt-5 mb-5">
-      <h2><strong>Terms and Conditions</strong></h2>
+      <h1><strong>Terms and Conditions</strong></h1>
 
       <p>Welcome to Socio Club!</p>
 

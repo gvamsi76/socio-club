@@ -1,25 +1,23 @@
 import React, { useEffect } from 'react'
 import './bids.css'
-import readingbook from '../../assets/readingbook.gif'
-import audiobook from '../../assets/audiobook.gif'
-import News from '../../assets/News.gif'
-import Contest from '../../assets/Contest.gif'
-import Crypto from '../../assets/Crypto.gif'
-import Music from '../../assets/Music.gif'
-import Radio from '../../assets/Radio.gif'
-import Memes from '../../assets/Memes.gif'
-import chatbot from '../../assets/chatbot.gif'
-import Podcast from '../../assets/Podcast.gif'
-import Anonymous from '../../assets/Anonymous.gif'
-import videogamestreamer from '../../assets/videogamestreamer.gif'
-import workout from '../../assets/workout.gif'
-import quizbump from '../../assets/quizbump.gif'
-import newyoga from '../../assets/newyoga.gif'
-import marketing from '../../assets/marketing.gif'
-import exchangecryptocurrency from '../../assets/exchangecryptocurrency.gif'
-import gamepadanimation from '../../assets/gamepadanimation.gif'
-import books from '../../assets/books.gif'
-import globalnetwork from '../../assets/globalnetwork.gif'
+import audiobook from '../../assets/audiobook.webp'
+import Contest from '../../assets/Contest.webp'
+import Crypto from '../../assets/Crypto.webp'
+import Music from '../../assets/Music.webp'
+import Radio from '../../assets/Radio.webp'
+import Memes from '../../assets/Memes.webp'
+import chatbot from '../../assets/chatbot.webp'
+import Podcast from '../../assets/Podcast.webp'
+import Anonymousw from '../../assets/Anonymous.webp'
+import videogamestreamer from '../../assets/videogamestreamer.webp'
+import workout from '../../assets/workout.webp'
+import quizbump from '../../assets/quizbump.webp'
+import newyoga from '../../assets/newyoga.webp'
+import marketing from '../../assets/marketing.webp'
+import exchangecryptocurrency from '../../assets/exchangecryptocurrency.webp'
+import gamepadanimation from '../../assets/gamepadanimation.webp'
+import books from '../../assets/books.webp'
+import globalnetwork from '../../assets/globalnetwork.webp'
 
 import Aos from 'aos'
 import "aos/dist/aos.css"
@@ -176,7 +174,7 @@ const Bids = ({title}) => {
           <div className="card-column" >
             <div data-aos="fade-down" className="bids-card bg-white">
               <div className="bids-card-top">
-                <img src={Anonymous} alt="Anonymous" title='Anonymous' />
+                <img src={Anonymousw} alt="Anonymous" title='Anonymous' />
               {/* <Link to={`/post/123`}> */}
               <h5 className="bids-title text-dark text-center fw-bolder mt-2">Anonymous</h5>
               <div className='text-dark text-center texth'>Anonymous club - <br/> Anyone can Securely post anything, as truth as hard, as Anonymous person.</div>
