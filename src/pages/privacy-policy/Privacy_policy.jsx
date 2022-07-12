@@ -5,7 +5,7 @@ const Privacypolicy = () => {
 
   return (
     <div className="container mt-5 mb-5">
-      <h1>Privacy Policy</h1>
+      <h1><strong> Privacy Policy</strong></h1>
 
       <p>At Socio Club, accessible from www.socio-club.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Socio Club and how we use it.</p>
 
@@ -13,7 +13,7 @@ const Privacypolicy = () => {
 
       <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Socio Club. This policy is not applicable to any information collected offline or via channels other than this website.</p>
 
-      <h2>Consent</h2>
+      <h><strong>Consent</strong></h>
 
       <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
 

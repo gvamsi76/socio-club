@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react'
 import './header.css'
 import "slick-carousel/slick/slick.css"; 
