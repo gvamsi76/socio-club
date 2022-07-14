@@ -21,7 +21,7 @@ import {useNavigate} from "react-router-dom"
       <div className="navbar-links row">
           <nav className="navbar navbar-expand-lg dark m-3 mt-0 pt-0">
           <div data-aos="slide-right" className="navbar-links_logo col-lg-3 col-sm-10 col-10 d-block mx-auto">
-            <img src={logo} alt="logo" className='d-block mx-auto' />
+            <img src={logo} alt="socio club" className='d-block mx-auto' />
           </div>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <FontAwesomeIcon icon={faBars} className='text-white' />

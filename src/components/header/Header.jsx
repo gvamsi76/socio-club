@@ -24,8 +24,8 @@ const Header = () => {
       <div className="header-content ">
         
         <div className='leftsidebanner'>
-          <h1 data-aos="zoom-in-up">Social And Entertainment Super Platform</h1>
-          <h2 data-aos="zoom-in-up">Socio-Club</h2>
+          <h2 data-aos="zoom-in-up"><strong>Social And Entertainment Super Platform</strong></h2>
+          <h1 data-aos="zoom-in-up">Socio-Club</h1>
           <p data-aos="flip-right">Sink Yourself Into Vibes</p>
         </div>
         
@@ -46,7 +46,7 @@ const Header = () => {
 
         <Grid item md={4} xs={12}>
         <div data-aos="slide-right" className='trophy'>
-          <img src={prizepodium}  alt="Prize podium" title="Prize podium" className='rounded' />
+          <img src={prizepodium}  alt="socio club" title="Prize podium" className='rounded' />
         </div>
           </Grid>
           <Grid item md={5} xs={12} className='contests-p'>
@@ -58,7 +58,7 @@ const Header = () => {
       </div>
       <div data-aos="zoom-in-up" className='googleplay'>
         <p>Get in on Google Playstore</p>
-        <img src={image2} href="#"className='gpay-anime' alt='Playstore' title='Playstore' />
+        <img src={image2} href="#"className='gpay-anime' alt='socio club Playstore' title='Playstore' />
         </div>
     </div>
     <div id="splash">
