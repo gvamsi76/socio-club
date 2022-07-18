@@ -35,6 +35,9 @@ import {useNavigate} from "react-router-dom"
                 <li data-aos="zoom-in" className="nav-item col text-center mt-2  mx-auto">
                 <Link onClick={()=>navigate("/")} to="Features" spy={true} smooth={true} className='text-white display-6 opensans pointer text-center' >Features</Link>
                 </li>
+                <li data-aos="zoom-in" className="nav-item col text-center mt-2  mx-auto">
+                <Link onClick={()=>navigate("/About")} to="About" spy={true} smooth={true} className='text-white display-6 opensans pointer text-center' >About</Link>
+                </li>
                 <li data-aos="zoom-in" className="nav-item col text-center mt-2 mx-auto">
                 <Link  to="Contact" spy={true} smooth={true} className='text-white display-6 opensans pointer text-center' >Contact</Link>
                 </li>

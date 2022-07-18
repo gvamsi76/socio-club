@@ -1,23 +1,23 @@
 import React, { useEffect } from "react";
 import "./bids.css";
-import audiobook from "../../assets/audiobook.webp";
+import audiobook from "../../club/audiobook.webp";
 import Contest from "../../assets/Contest.webp";
-import Crypto from "../../assets/Crypto.webp";
-import Music from "../../assets/Music.webp";
-import Radio from "../../assets/Radio.webp";
+import Crypto from "../../club/digital.webp";
+import Music from "../../club/music-note.webp";
+import Radio from "../../club/radio.webp";
 import Memes from "../../assets/Memes.webp";
-import chatbot from "../../assets/chatbot.webp";
-import Podcast from "../../assets/Podcast.webp";
-import Anonymousw from "../../assets/Anonymous.webp";
-import videogamestreamer from "../../assets/videogamestreamer.webp";
-import workout from "../../assets/workout.webp";
-import quizbump from "../../assets/quizbump.webp";
-import newyoga from "../../assets/newyoga.webp";
-import marketing from "../../assets/marketing.webp";
-import exchangecryptocurrency from "../../assets/exchangecryptocurrency.webp";
-import gamepadanimation from "../../assets/gamepadanimation.webp";
-import books from "../../assets/books.webp";
-import globalnetwork from "../../assets/globalnetwork.webp";
+import chatbot from "../../club/chatbot.webp";
+import Podcast from "../../club/live.webp";
+import Anonymousw from "../../club/anonymous.webp";
+import videogamestreamer from "../../club/movie.webp";
+import workout from "../../club/fitness.webp";
+import quizbump from "../../club/quiz.webp";
+import newyoga from "../../club/lotus.webp";
+import marketing from "../../club/shopping-cart.webp";
+import exchangecryptocurrency from "../../club/cryptocurrency.webp";
+import gamepadanimation from "../../club/game-console.webp";
+import books from "../../club/audio-book.webp";
+import globalnetwork from "../../club/news.webp";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -34,7 +34,7 @@ const Bids = ({ title }) => {
       <div className="bids-container">
         <div data-aos="zoom-in" className="bids-container-text">
           {/*<h1>Club Features</h1>*/}
-          <p className="fw-bolder display-4 text-center">Club Features</p>
+          <p className="fw-bolder display-4 text-center">Club Features</p><br />
         </div>
         <div className="bids-container-card">
           <div className="card-column">
